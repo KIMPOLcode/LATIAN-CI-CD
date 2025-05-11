@@ -1,0 +1,22 @@
+name: CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies (none for HTML-CSS-JS)
+        run: echo "No dependencies needed."
+
+      - name: Compile Code (simulate for static files)
+        run: echo "No compile step needed for HTML-CSS-JS project."
+
+      - name: Run Program (simulate opening index.html)
+        run: |
+          echo "Simulate running the program."
+          ls -la
