@@ -1,6 +1,14 @@
-name : CI Pipeline
+name: CI Pipeline
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+      - user-1
+  pull_request:
+    branches:
+      - main
+      - user-1
 
 jobs:
   build:
