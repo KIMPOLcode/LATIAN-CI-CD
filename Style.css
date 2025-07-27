@@ -344,10 +344,10 @@ footer ul li a {
   margin-top: 2rem;
 }
 
-.about-info h3{
+.about-info h3 {
   text-align: center;
 }
-.about-info p{
+.about-info p {
   text-align: center;
   padding-top: 1rem;
 }
@@ -357,29 +357,28 @@ footer ul li a {
   width: 25%;
 }
 
-.row-skill{
+.row-skill {
   padding-top: 3rem;
   display: flex;
   justify-content: space-evenly;
 }
 
-.skills-box{
+.skills-box {
   margin: 10px;
 }
 
-.skills-header{
+.skills-header {
   margin-bottom: 30px;
 }
-.skill-list{
+.skill-list {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
-.skill-list span{
+.skill-list span {
   font-size: 14px;
   background-color: aqua;
   color: black;
   padding: 2px 10px;
   border-radius: 5px;
-
 }
